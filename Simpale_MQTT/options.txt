@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\Simpale_MQTT
+-IC:\Program Files (x86)\HPE\Virtual User Generator\include
+-ec:\users\administrator\documents\vugen\scripts\simpale_mqtt\\logfile.log
+c:\users\administrator\documents\vugen\scripts\simpale_mqtt\\combined_Simpale_MQTT.c
+c:\users\administrator\documents\vugen\scripts\simpale_mqtt\\pre_cci.c

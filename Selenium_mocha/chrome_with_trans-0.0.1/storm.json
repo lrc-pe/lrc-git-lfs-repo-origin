@@ -1,0 +1,5 @@
+{
+  "execution": "Selenium",
+  "runner": "mocha",
+  "transactions": ["Peaceful App - Navigate", "Peaceful App - Go to 2nd page"]
+}

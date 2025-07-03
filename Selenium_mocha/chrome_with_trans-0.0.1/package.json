@@ -1,0 +1,7 @@
+{
+  "name": "chrome_with_trans",
+  "version": "0.0.1",
+  "dependencies": {
+    "selenium-webdriver": "3.3.0"
+  }
+}

@@ -1,0 +1,42 @@
+Virtual User Script started at: 10/20/2017 2:24:50 PM
+Starting action vuser_init.
+20/10/2017 14:24:50 vuser_init.c(4): Created new connection
+20/10/2017 14:24:50 vuser_init.c(7): Set Client ID to '<insert Client ID>'
+20/10/2017 14:24:50 vuser_init.c(8): Set credentials to <username placeholder> : ******
+20/10/2017 14:24:50 vuser_init.c(9): Set Last Will and Testament message
+20/10/2017 14:24:50 vuser_init.c(9): Message from '<topic>' with QoS=0 (retain):
+20/10/2017 14:24:50 vuser_init.c(9): ::: <sample lwt payload> :::
+20/10/2017 14:24:50 vuser_init.c(13): Set TLS certificate parameters: certificate path '<path to a certificate file, e.g. cert.pem>', private key path '<path to a private key file, e.g. key.pem>', password ******
+20/10/2017 14:24:50 vuser_init.c(14): Set TLS parameters to TLS1.2 : ALL
+20/10/2017 14:24:50 vuser_init.c(17): Connecting to tcp://16.187.189.216:1883
+20/10/2017 14:24:50 vuser_init.c(17): Connection successful
+20/10/2017 14:24:50 vuser_init.c(21): Subscribing to MQTT1
+20/10/2017 14:24:50 vuser_init.c(21): Subscription successful
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+20/10/2017 14:24:50 Action.c(6): Wait for messages to arrive to the Inbox
+20/10/2017 14:24:50 Action.c(6): Inbox size: 1 messages
+20/10/2017 14:24:50 Action.c(11): Reading message from Inbox
+20/10/2017 14:24:50 Action.c(11): Message saved to cache, ID = 134341284
+20/10/2017 14:24:50 Action.c(11): Read Inbox successfully
+20/10/2017 14:24:50 Action.c(12): Retrieve payload of the message with ID = 134341284
+20/10/2017 14:24:50 Action.c(13): Retrieve topic of the message with ID = 134341284
+20/10/2017 14:24:50 Action.c(14): Retrieve payload length of the message with ID = 134341284
+received message with size 21 from MQTT1
+payload MQTT protocol Testing
+20/10/2017 14:24:50 Action.c(17): Dispose message with ID = 134341284
+20/10/2017 14:24:50 Action.c(21): Wait for messages to arrive to the Inbox
+20/10/2017 14:25:00 Action.c(21): Inbox size: 0 messages
+20/10/2017 14:25:00 Action.c(22): Inbox cleared, deleted 0 messages
+20/10/2017 14:25:00 Action.c(28): Publishing 21 bytes to MQTT1
+20/10/2017 14:25:00 Action.c(28): Publishing successful
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+20/10/2017 14:25:00 vuser_end.c(7): Disconnecting from server
+20/10/2017 14:25:00 vuser_end.c(7): Disconnection successful
+Ending action vuser_end.
+Vuser Terminated.
